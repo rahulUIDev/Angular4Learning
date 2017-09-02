@@ -1,0 +1,29 @@
+<div class="signup-backdrop">
+<div class="signup-container">
+  <div class="signup-content">
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" [(ngModel)]="editUser.userId" [ngModelOptions]="{standalone: true}" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" [(ngModel)]="editUser.passCode" [ngModelOptions]="{standalone: true}" placeholder="Password">
+        </div>
+      </div>
+      <div class="row" *ngIf="section" [@flyInOut]="'in'">
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" placeholder="First Name">
+        </div>
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="row mt30">
+        <div class="col-md-12">
+         <button type="button" (click)="next()" class="btn btn-default pull-right sign-up-button">Get Started</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
