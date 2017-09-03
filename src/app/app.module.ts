@@ -28,15 +28,3 @@ import { AppComponent } from './core/back-drop/back-drop';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-// { path: 'hero/:id',      component: HeroDetailComponent },
-//   {
-//     path: 'heroes',
-//     component: HeroListComponent,
-//     data: { title: 'Heroes List' }
-//   },
-//   { path: '',
-//     redirectTo: '/heroes',
-//     pathMatch: 'full'
-//   },
-//   { path: '**', component: PageNotFoundComponent }
