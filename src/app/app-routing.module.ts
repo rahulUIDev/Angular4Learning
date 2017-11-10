@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, Routes, RouterModule } from '@angular/router';
 import { SigninComponent } from './core/signin/signin';
 import { StudentBoardComponent } from './student/student-dashboard/student-dashboard';
+import { LogService } from 'app/shared/log.service'
 /***************************************************************
 * Lazy Loading to Eager Loading
 *
@@ -23,6 +24,6 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })],
   exports: [RouterModule],
-  providers: []
+  providers: [LogService]
 })
 export class AppRoutingModule { }

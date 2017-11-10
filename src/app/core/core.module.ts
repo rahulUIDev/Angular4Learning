@@ -8,7 +8,8 @@ import {HeaderComponent} from './header/header';
 @NgModule({
   imports: [CommonModule, FormsModule],
   declarations: [HeaderComponent, SideNavBarComponent, SigninComponent],
-  exports: [HeaderComponent, SideNavBarComponent, SigninComponent]
+  exports: [HeaderComponent, SideNavBarComponent, SigninComponent],
+  providers:[]
 })
 
 export class CoreModule {
