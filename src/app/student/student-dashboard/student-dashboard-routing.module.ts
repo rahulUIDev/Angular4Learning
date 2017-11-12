@@ -1,15 +1,15 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { StudentBoardComponent } from './student-dashboard';
+// import { NgModule } from '@angular/core';
+// import { Routes, RouterModule } from '@angular/router';
+// import { StudentBoardComponent } from './student-dashboard';
 
-const routes: Routes = [
-  { path: '', component: StudentBoardComponent },
-];
+// const routes: Routes = [
+//   { path: '', component: StudentBoardComponent },
+// ];
 
-@NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
-})
-export class StudentDashRoutingModule { }
+// @NgModule({
+//   imports: [RouterModule.forChild(routes)],
+//   exports: [RouterModule],
+// })
+// export class StudentDashRoutingModule { }
 
-export const routedComponents = [StudentBoardComponent];
+// export const routedComponents = [StudentBoardComponent];

@@ -2,12 +2,12 @@
 
 .signup-backdrop{
   width: 100%;
-  height: auto;
+  height: calc(100vh - 60px);;
   z-index: 2;
   position: absolute;
   background-image: url("../../../assets/images/signIn.jpg");
   background-size: 100% auto;
-  top:0;
+  top:60px;
   bottom:0;
   .signup-container {
     position: absolute;
